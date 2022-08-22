@@ -1,5 +1,4 @@
-# 
-
+#!/usr/bin/sh 
 #usage: sh cal_vdSRA_visual.sh ref.fasta bowtie.out sample *.fq.gz 8 no q 
 # sRNA reads count and make plot for uniq file or raw file
 

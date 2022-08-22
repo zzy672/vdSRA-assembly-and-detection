@@ -1,4 +1,4 @@
-
+#!/usr/bin/sh
 #usage: sh velvet_run.sh 143A_assembled 17 *fa
 outfile=$1
 kmer=$2
