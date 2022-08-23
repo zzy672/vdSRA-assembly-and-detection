@@ -2,7 +2,7 @@
 ## for calculating sRNA reads counts and coverage of reference
 bt_out=$1
 thread=$2
-s_path=/data1/wulab234/zhuyu/WildRice_Project/2021_CYDV_data_0401/Reads/bt_cat_scripts/
+s_path=**/vdSRA-assembly-and-detection
 
 ## thread
 if [ $thread -gt 0 ];then
