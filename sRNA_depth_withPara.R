@@ -1,4 +1,4 @@
-
+#!/usr/local/bin/R
 
 ##  make sRNA depth plot according to specifying sRNA depth file and library
 # input: Rscript *.R *.txt lib*

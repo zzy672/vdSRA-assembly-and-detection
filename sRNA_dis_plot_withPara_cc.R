@@ -1,3 +1,5 @@
+#!/usr/local/bin/R
+
 #list.files(pattern="txt")->files
 commandArgs(T)[1]->files
 commandArgs(T)[2]->lib
