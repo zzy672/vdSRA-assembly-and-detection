@@ -31,5 +31,7 @@
 ## 6. make plot of reads mapping to contigs (contigs mapping to RTIV genome) by using sRNA_reads_mappping_plot.R
  
 ## 7. get vsiRNA of RTIV and visualize in R
+ bowtie-build RTIV_ref.fasta RTIV_ref.fasta
+ perl c_length.pl RTIV_ref.fasta >ref_length.txt
 
  sh cal_vdSRA_visual.sh RTIV_ref.fasta bowtie.out sample *.fq.gz 8 no q
